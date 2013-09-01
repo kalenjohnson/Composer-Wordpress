@@ -21,9 +21,14 @@
         }
     ],
     "require": {
-        "wordpress/wordpress": "3.6"
+        "wordpress/wordpress": "3.6",
+        "wpackagist/advanced-custom-fields": "*",
+        "wpackagist/custom-post-type-ui": "*"
     },
     "extra": {
+        "installer-paths": {
+            "app/plugins/{$name}/": ["type:wordpress-plugin"]
+        },
         "webroot-dir": "wp",
         "webroot-package": "wordpress/wordpress"
     }
