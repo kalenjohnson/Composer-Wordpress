@@ -1,4 +1,6 @@
 /vendor
 /wp
-/app/plugins
-/app/themes
+/app/plugins/*
+/app/themes/*
+!/app/plugins/index.php
+!/app/themes/index.php
