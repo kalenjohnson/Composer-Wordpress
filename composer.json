@@ -1,0 +1,26 @@
+{
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "type": "webroot",
+                "name": "wordpress/wordpress",
+                "version": "3.6",
+                "dist": {
+                    "url": "https://github.com/WordPress/WordPress/archive/3.6.zip",
+                    "type": "zip"
+                },
+                "require": {
+                    "fancyguy/webroot-installer": "1.0.0"
+                }
+            }
+        }
+    ],
+    "require": {
+        "wordpress/wordpress": "3.6"
+    },
+    "extra": {
+        "webroot-dir": "wp",
+        "webroot-package": "wordpress/wordpress"
+    }
+}
