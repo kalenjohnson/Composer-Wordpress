@@ -21,6 +21,8 @@
         }
     ],
     "require": {
+        "rmccue/requests": "dev-master",
+        "wp-cli/wp-cli": "dev-master",
         "wordpress/wordpress": "3.6",
         "wpackagist/advanced-custom-fields": "*",
         "wpackagist/custom-post-type-ui": "*"
